@@ -1,0 +1,152 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>f6bf78f5-7879-4c5a-a3c2-d53c02171c70</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>baekjoonproblems\2588.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>BaekjoonProject</Name>
+    <RootNamespace>BaekjoonProject</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="baekjoonproblems\1000.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="baekjoonproblems\1001.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="baekjoonproblems\1008.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="baekjoonproblems\10171.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="baekjoonproblems\10172.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="baekjoonproblems\10430.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="baekjoonproblems\10869.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="baekjoonproblems\10870.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="baekjoonproblems\10872.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="baekjoonproblems\1003.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="baekjoonproblems\1012.py" />
+    <Compile Include="baekjoonproblems\1021.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="baekjoonproblems\10998.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="baekjoonproblems\11047.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="baekjoonproblems\11279.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="baekjoonproblems\1158.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="baekjoonproblems\11650.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="baekjoonproblems\1260.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="baekjoonproblems\1406.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="baekjoonproblems\14502.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="baekjoonproblems\14890.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="baekjoonproblems\15649.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="baekjoonproblems\1676.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="baekjoonproblems\1697.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="baekjoonproblems\17412.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="baekjoonproblems\1874.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="baekjoonproblems\1927.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="baekjoonproblems\1753.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="baekjoonproblems\1991.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="baekjoonproblems\2231.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="baekjoonproblems\2588.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="baekjoonproblems\2798.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="baekjoonproblems\2751.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="baekjoonproblems\2908.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="baekjoonproblems\3053.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="baekjoonproblems\4153.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="baekjoonproblems\4949.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="baekjoonproblems\7568.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="baekjoonproblems\9372.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="baekjoonproblems\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
